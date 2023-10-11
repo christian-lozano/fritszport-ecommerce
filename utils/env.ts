@@ -16,6 +16,6 @@ export const gaTrackingId = process.env.NEXT_PUBLIC_UA_ID!
 
 if (!appId || !searchApiKey || !indexName || !querySuggestionsIndexName) {
   throw new Error(
-    `An environment variable is missing. Rename the '.env.sample' file to '.env.local' and change the values.`
+    `A environment variable is missing. Rename the '.env.sample' file to '.env.local' and change the values.`
   )
 }
